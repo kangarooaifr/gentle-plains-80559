@@ -23,6 +23,8 @@ ui <- fluidPage(
       h2("My Title goes here"),
       p("Some more text goes here as the app will grow..."),
       
+      p("Another commit to check for auto deploy from github"),
+      
       plotOutput("distPlot")
       
     )
