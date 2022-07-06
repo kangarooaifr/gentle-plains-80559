@@ -19,7 +19,12 @@ ui <- fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
+      
+      h2("My Title goes here"),
+      p("Some more text goes here as the app will grow..."),
+      
       plotOutput("distPlot")
+      
     )
   )
 )
